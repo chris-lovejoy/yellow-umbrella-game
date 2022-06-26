@@ -235,7 +235,7 @@ export default function NFT({
                   </a>
               
                 <div className="flex pt-10 pb-2 mx-auto text-center justify-center items-center text-lightGray w-full">
-                  View the transaction on the block explorer:
+                  View the transaction on the Oasis Emerald Testnet block explorer:
                 </div>
                   <a href={`https://testnet.explorer.emerald.oasis.dev/tx/${transactionId}`} className="flex mx-auto mt-6 rounded-full p-3
                       px-6 bg-darkGray baseline text-lightGray 
