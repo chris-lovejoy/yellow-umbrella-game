@@ -27,19 +27,6 @@ export default function App() {
     },
   };
 
-  const uauthOptions = {
-    clientID: "6fa9361b-69ad-4fce-8ee0-97b25b5e57fe",
-    redirectUri: "http://localhost:3000/", // TODO: update to the deployment website URI
-    scope: 'openid wallet',
-  }
-
-  providerOptions['custom-uauth'] = {
-    display: UAuthWeb3Modal.display,
-    connector: UAuthWeb3Modal.connector,
-    package: UAuthSPA,
-    options: uauthOptions,
-  }
-
   const web3Modal = new Web3Modal({
     network: "mainnet",
     cacheProvider: false,
